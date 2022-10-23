@@ -8,47 +8,31 @@
 
   <body>
     <header class="header">
-      <section class="menu">
-        <a class="logo" href="" target="_blank" rel="noopener"
-          ><b>Web</b>Studio</a
-        >
-        <nav>
-          <ul class="navigation">
-            <li>Студія</li>
-            <li>Портфоліо</li>
-            <li>Контакти</li>
-          </ul>
-        </nav>
-        <div class="contacts">
-          <a class="mail" href="mailto:info@devstudio.com">
-            <img src="images/envelope.png" alt="конверт" />info@devstudio.com
-          </a>
-          <a class="phone" href="tel:+380961111111">
-            <img src="images/smartphone.svg" alt="телефон" />+38 096 111 11 11
-          </a>
-        </div>
-      </section>
+      <a class="logo" href="" target="_blank" rel="noopener">WebStudio</a>
+      <nav>
+        <ul class="navigation">
+          <li><a href="">Студія</a></li>
+          <li><a href="">Портфоліо</a></li>
+          <li><a href="">Контакти</a></li>
+        </ul>
+      </nav>
+      <div class="contacts">
+        <a class="mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <a class="phone" href="tel:+380961111111">+38 096 111 11 11 </a>
+      </div>
+    </header>
+    <main>
       <section class="hero">
-        <!--краще background-->
-        <img
-          src="images/head.jpg"
-          alt="effective-team"
-          width="1600"
-          height="600"
-        />
         <h1>
           Ефективні рішення для <br />
           вашого бізнесу
         </h1>
         <button class="button-header" type="button">Замовити послугу</button>
       </section>
-    </header>
-    <main>
       <section class="cards">
         <h2>Переваги</h2>
-        <ul>
+        <ul class="list-benefits">
           <li>
-            <img src="images/antenna.png" alt="antenna" width="70" />
             <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
             <p>
               Ідейні міркування, і навіть початок повсякденної роботи з
@@ -56,7 +40,6 @@
             </p>
           </li>
           <li>
-            <img src="images/clock.png" alt="clock" width="70" />
             <h3>ПУНКТУАЛЬНІСТЬ</h3>
             <p>
               Завдання організації, особливо рамки і місце навчання кадрів тягне
@@ -64,14 +47,12 @@
             </p>
           </li>
           <li>
-            <img src="images/diagram.png" alt="diagram" width="70" />
             <h3>ПЛАНУВАННЯ</h3>
             <p>
               Так само консультація з широким активом значною мірою зумовлює.
             </p>
           </li>
           <li>
-            <img src="images/astronaut.png" alt="astronaut" width="70" />
             <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
             <p>
               Значимість цих проблем настільки очевидна, що реалізація планових
@@ -80,17 +61,27 @@
           </li>
         </ul>
       </section>
-      <section class="what-do-we-do">
+      <section class="what-do">
         <h2>Чим ми займаємося</h2>
         <ul>
           <li>
-            <img src="images/box1.jpg" alt="desktop" width="370" height="294" />
+            <img
+              src="images/box1.jpg"
+              alt="комп'ютер"
+              width="370"
+              height="294"
+            />
           </li>
           <li>
-            <img src="images/box2.jpg" alt="mobile" width="370" height="294" />
+            <img
+              src="images/box2.jpg"
+              alt="мобільний"
+              width="370"
+              height="294"
+            />
           </li>
           <li>
-            <img src="images/box3.jpg" alt="tablet" width="370" height="294" />
+            <img src="images/box3.jpg" alt="планшет" width="370" height="294" />
           </li>
         </ul>
       </section>
@@ -98,206 +89,34 @@
         <h2>Наша команда</h2>
         <ul>
           <li>
-            <img src="images/photo1.jpg" alt="photo" width="270" height="260" />
+            <img src="images/photo1.jpg" alt="фото" width="270" height="260" />
             <h3 class="name">Ігор Дем'яненко</h3>
-            <p class="profession">Product Designer</p>
-            <ul class="social_networks">
-              <li>
-                <a
-                  href="https://www.instagram.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  ><img src="images/instagram2.png" alt="instagram"
-                /></a>
-              </li>
-              <li>
-                <a
-                  href="https://twitter.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  ><img src="images/twitter2.png" alt="twitter"
-                /></a>
-              </li>
-              <li>
-                <a
-                  href="https://uk-ua.facebook.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  ><img src="images/facebook2.png" alt="facebook"
-                /></a>
-              </li>
-              <li>
-                <a
-                  href="https://ua.linkedin.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  ><img src="images/linkedin2.png" alt="linkedin"
-                /></a>
-              </li>
-            </ul>
+            <p class="profession">Product Designer</p>            
           </li>
           <li>
-            <img src="images/photo2.jpg" alt="photo" width="270" height="260" />
+            <img src="images/photo2.jpg" alt="фото" width="270" height="260" />
             <h3 class="name">Ольга Рєпіна</h3>
-            <p class="profession">Frontend Developer</p>
-            <ul class="social-networks">
-              <li>
-                <a
-                  href="https://www.instagram.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  ><img src="images/instagram2.png" alt="instagram"
-                /></a>
-              </li>
-              <li>
-                <a
-                  href="https://twitter.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  ><img src="images/twitter2.png" alt="twitter"
-                /></a>
-              </li>
-              <li>
-                <a
-                  href="https://uk-ua.facebook.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  ><img src="images/facebook2.png" alt="facebook"
-                /></a>
-              </li>
-              <li>
-                <a
-                  href="https://ua.linkedin.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  ><img src="images/linkedin2.png" alt="linkedin"
-                /></a>
-              </li>
-            </ul>
+            <p class="profession">Frontend Developer</p>            
           </li>
           <li>
-            <img src="images/photo3.jpg" alt="photo" width="270" height="260" />
+            <img src="images/photo3.jpg" alt="фото" width="270" height="260" />
             <h3 class="name">Микола Тарасов</h3>
-            <p class="profession">Marketing</p>
-            <ul class="social-networks">
-              <li>
-                <a
-                  href="https://www.instagram.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  ><img src="images/instagram2.png" alt="instagram"
-                /></a>
-              </li>
-              <li>
-                <a
-                  href="https://twitter.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  ><img src="images/twitter2.png" alt="twitter"
-                /></a>
-              </li>
-              <li>
-                <a
-                  href="https://uk-ua.facebook.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  ><img src="images/facebook2.png" alt="facebook"
-                /></a>
-              </li>
-              <li>
-                <a
-                  href="https://ua.linkedin.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  ><img src="images/linkedin2.png" alt="linkedin"
-                /></a>
-              </li>
-            </ul>
+            <p class="profession">Marketing</p>            
           </li>
           <li>
-            <img src="images/photo4.jpg" alt="photo" width="270" height="260" />
+            <img src="images/photo4.jpg" alt="фото" width="270" height="260" />
             <h3 class="name">Михайло Єрмаков</h3>
             <p class="profession">UI Designer</p>
-            <ul class="social-networks">
-              <li>
-                <a
-                  href="https://www.instagram.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  ><img src="images/instagram2.png" alt="instagram"
-                /></a>
-              </li>
-              <li>
-                <a
-                  href="https://twitter.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  ><img src="images/twitter2.png" alt="twitter"
-                /></a>
-              </li>
-              <li>
-                <a
-                  href="https://uk-ua.facebook.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  ><img src="images/facebook2.png" alt="facebook"
-                /></a>
-              </li>
-              <li>
-                <a
-                  href="https://ua.linkedin.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  ><img src="images/linkedin2.png" alt="linkedin"
-                /></a>
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </section>
-      <section class="clients">
-        <h2>Постійні клієнти</h2>
-        <ul>
-          <li>
-            <a href=""
-              ><img src="images/Logo1.png" alt="client" width="41" height="47"
-            /></a>
-          </li>
-          <li>
-            <a href=""
-              ><img src="images/Logo2.png" alt="client" width="40" height="52"
-            /></a>
-          </li>
-          <li>
-            <a href=""
-              ><img src="images/Logo3.png" alt="client" width="43" height="41"
-            /></a>
-          </li>
-          <li>
-            <a href=""
-              ><img src="images/Logo4.png" alt="client" width="85" height="41"
-            /></a>
-          </li>
-          <li>
-            <a href=""
-              ><img src="images/Logo5.png" alt="client" width="63" height="45"
-            /></a>
-          </li>
-          <li>
-            <a href=""
-              ><img src="images/Logo6.png" alt="client" width="94" height="44"
-            /></a>
-          </li>
-        </ul>
-      </section>
+          </li>           
+      </section>      
     </main>
     <footer>
-      <a class="logo" href="" target="_blank" rel="noopener"
-        ><b>Web</b>Studio</a
-      >
+      <a class="logo" href="" target="_blank" rel="noopener">WebStudio</a>
       <address>
         <ul>
-          <li>м. Київ, пр-т Лесі Українки, 26</li>
+          <li>
+            <a class="address" href="">м. Київ, пр-т Лесі Українки, 26</a>
+          </li>
           <li>
             <a class="mail" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
@@ -307,42 +126,7 @@
             <a class="phone" href="tel:+380961111111">+38 096 111 11 11</a>
           </li>
         </ul>
-      </address>
-      <h4>приєднуйтесь</h4>
-      <ul class="social_networks2">
-        <li>
-          <a
-            href="https://www.instagram.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            ><img src="images/instagram1.png" alt="instagram"
-          /></a>
-        </li>
-        <li>
-          <a
-            href="https://twitter.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            ><img src="images/twitter1.png" alt="twitter"
-          /></a>
-        </li>
-        <li>
-          <a
-            href="https://uk-ua.facebook.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            ><img src="images/facebook1.png" alt="facebook"
-          /></a>
-        </li>
-        <li>
-          <a
-            href="https://ua.linkedin.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            ><img src="images/linkedin1.png" alt="linkedin"
-          /></a>
-        </li>
-      </ul>
+      </address>      
     </footer>
   </body>
 </html>
